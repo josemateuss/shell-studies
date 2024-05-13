@@ -1,0 +1,20 @@
+Para dar permissão para o programa shell, é necessário rodar o comando chmod:
+
+chmod +x program.sh
+
+No arquivo shell, na primeira linha temos o shebang (#!), #!/bin/bash indica o interpretador do prgrama shell
+
+echo é um comando bultin do bash, funciona p/ printar
+
+o comando read serve para input do usuário no terminal
+
+Para mudar de diretório no arquivo .sh
+cd /tmp
+touch file.txt
+ls -l /tmp/file.txt
+pwd
+
+----
+
+
+Para passar argumentos, basta colocar o $1 $2 $2, para ver o total de argumentos é $# e os arguemtnos em si é $@
